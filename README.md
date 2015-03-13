@@ -1,7 +1,7 @@
 RBLDNSD
 =======
 
-`rbldnsd` is a simple DNS server that allows to server realtime blacklist (or whitelists) via DNS. All you need is a DNS zone file as described in the [rbldnsd documentation](http://www.corpit.ru/mjt/rbldnsd.html).
+`rbldnsd` is a simple DNS server that allows to serve realtime blacklists (or whitelists) via DNS. All you need is a DNS zone file as described in the [rbldnsd documentation](http://www.corpit.ru/mjt/rbldnsd.html).
 Then run the container with the `zonename:type:fname,fname,fname...` as the command and let the NS entry of your DNS zone point to the docker host.
 
 Example usage via docker
